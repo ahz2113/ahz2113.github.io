@@ -3,14 +3,12 @@ function setup() {
 }
 
 function draw() {
-	//background(225);
+
 	//map background color
 	c1 = map(hour(), 0, 23, 255, 120);
-	// c2 = map(second(), 0, 59, 0, 200);
 	c2 = map(hour(), 0, 23, 200, 0)
 
-	//background(c1, c2, 0);
-	background(120, 0, 0);
+	background(c1, c2, 0);
 
 
 	textSize(32);
@@ -52,17 +50,6 @@ function draw() {
 	}
 	fill(180);
 	text(hour(), 10, 30);
-
-
-
-
-
-
-	//text(hour(), 10, 30);
-	//fill(100);
-	//text(minute(), 10, 60);
-	//fill(0);
-	//text(second(), 10, 90);
 
 	
 }

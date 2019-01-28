@@ -8,7 +8,7 @@ function draw() {
 	c1 = map(hour(), 0, 23, 255, 120);
 	c2 = map(hour(), 0, 23, 200, 0)
 
-	back_col = map(hour(), 0, 23, 0, 255);
+	back_col = map(hour(), 0, 23, 255, 0);
 
 	background(back_col);
 
